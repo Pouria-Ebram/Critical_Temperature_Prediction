@@ -22,3 +22,6 @@ is: Can we
 - predict the critical temperature Tc given some chemical properties of a
 material?
 - explain our prediction and the associated findings? For example, describe the key properties associated with the response variable.
+
+## Data set
+The data set was originally from from the Superconducting Material Database maintained by Japan's National Institute for Materials Science(NIMS). It contains 21,263 material records, each of which have 82 columns: 81 columns corresponding to the features extracted and the last 1 column of the observed Tc values. Among those 81 columns, the first column is the number of elements in the material, the rest 80 columns are features extracted from 8 properties (each property has 10 features).
